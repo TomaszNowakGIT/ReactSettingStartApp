@@ -6,7 +6,7 @@ const Root = () => (
   <div className="App">
     <GlobalStyle />
     <h1>hello</h1>
-    <Button bg='none'>Przycisk</Button>
+    <Button backgroundColor='none'>Przycisk</Button>
     <Button secondary>Przycisk</Button>
   </div>
 );

@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components';
 
-const bg = props => props.bg;
+
 const Button = styled.button`
   height: 80px;
   width: 220px;
-  background-color: ${bg};
+  background-color:${({backgroundColor}) =>  backgroundColor || 'green'}; //jeżeli brak koloru załaduj domyślny
   font-size: 1.6rem;
   font-weight: 800;
   text-transform: uppercase;
