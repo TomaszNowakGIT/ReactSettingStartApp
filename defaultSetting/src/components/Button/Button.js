@@ -1,13 +1,14 @@
 import styled, { css } from 'styled-components';
 
+const bg = props => props.bg;
 const Button = styled.button`
   height: 80px;
   width: 220px;
-  background-color: ${props => props.bg};
+  background-color: ${bg};
   font-size: 1.6rem;
   font-weight: 800;
   text-transform: uppercase;
-  transition: 1s;
+  transition: 0.8s;
   border: 3px solid red;
   border-radius: 50px;
   padding: 20px;
